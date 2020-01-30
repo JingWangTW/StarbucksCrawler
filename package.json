@@ -1,15 +1,19 @@
 {
-  "name": "bot",
+  "name": "tony-starbucks-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
-  "author": "tony",
+  "author": "Tony",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "firebase": "^7.8.0",
+    "firebase-admin": "^8.9.2",
     "html2plaintext": "^2.1.2",
     "linebot": "^1.5.3",
     "request": "^2.88.0"
